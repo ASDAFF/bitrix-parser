@@ -1,0 +1,140 @@
+[
+    {
+        "name": "psr/log",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-20T15:27:04+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
+    },
+    {
+        "name": "texthtml/php-lock",
+        "version": "v2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/texthtml/php-lock.git",
+            "reference": "037ff0b0c80ba16742c70261aff4760229d3af31"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/texthtml/php-lock/zipball/037ff0b0c80ba16742c70261aff4760229d3af31",
+            "reference": "037ff0b0c80ba16742c70261aff4760229d3af31",
+            "shasum": ""
+        },
+        "require": {
+            "psr/log": "~1.0"
+        },
+        "require-dev": {
+            "php-vfs/php-vfs": "~1.2",
+            "phpspec/phpspec": "^2.4"
+        },
+        "time": "2017-07-09T17:02:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TH\\Lock\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "aGPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Mathieu Rochette",
+                "email": "mathieu@rochette.cc"
+            }
+        ],
+        "description": "ressource lock"
+    },
+    {
+        "name": "zomberg/phpquery",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zomberg/phpquery.git",
+            "reference": "974b764ecb6bd09aecb5acff08345b562dd39131"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zomberg/phpquery/zipball/974b764ecb6bd09aecb5acff08345b562dd39131",
+            "reference": "974b764ecb6bd09aecb5acff08345b562dd39131",
+            "shasum": ""
+        },
+        "time": "2017-07-26T10:29:48+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "phpQuery/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tobiasz Cudnik",
+                "email": "tobiasz.cudnik@gmail.com",
+                "homepage": "https://github.com/TobiaszCudnik",
+                "role": "Developer"
+            },
+            {
+                "name": "Vyacheslav Pavlov",
+                "homepage": "https://github.com/zomberg",
+                "role": "Packager"
+            }
+        ],
+        "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+        "homepage": "http://code.google.com/p/phpquery/",
+        "keywords": [
+            "lib",
+            "phpQuery"
+        ]
+    }
+]
